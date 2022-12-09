@@ -22,6 +22,10 @@ namespace exe4_025
                 Console.WriteLine("4. Exit");
                 Console.WriteLine("Enter your choice : ");
                 int ch = Convert.ToInt32(Console.ReadLine());
+                switch (ch)
+                {
+                    
+                }
             }
         }
     }
