@@ -12,15 +12,15 @@ namespace exe4_025
         {
             int top = -1;
             int[] reza = new int[45];
-            Console.WriteLine("Enter Size Of The Stack");
+            Console.WriteLine("Masukkan Ukuran Tumpukan");
             int MAX = Convert.ToInt32(Console.ReadLine());
             while(true)
             {
                 Console.WriteLine("1. Push");
                 Console.WriteLine("2. Pop");
                 Console.WriteLine("3. Display");
-                Console.WriteLine("4. Exit");
-                Console.WriteLine("Enter your choice : ");
+                Console.WriteLine("4. Keluar");
+                Console.WriteLine("Masukkan Pilihan : ");
                 int ch = Convert.ToInt32(Console.ReadLine());
                 switch (ch)
                 {
@@ -55,7 +55,7 @@ namespace exe4_025
                     case 4:
                         return;
                     default:
-                        Console.WriteLine("Wrong Choice");
+                        Console.WriteLine("Pilihan salah");
                         break;
                 }
             }
