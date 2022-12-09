@@ -47,7 +47,9 @@ namespace exe4_025
                             Console.WriteLine("...Stack Underflow...");
                         else
                         {
-
+                            Console.WriteLine("Element in the stack");
+                            for (int i = top; i >= 0; i--)
+                                Console.WriteLine(reza[i]);
                         }
                         break ;
                 }
