@@ -52,6 +52,8 @@ namespace exe4_025
                                 Console.WriteLine(reza[i]);
                         }
                         break ;
+                    case 4:
+                        return;
                 }
             }
         }
