@@ -16,7 +16,12 @@ namespace exe4_025
             int MAX = Convert.ToInt32(Console.ReadLine());
             while(true)
             {
-
+                Console.WriteLine("1. Push");
+                Console.WriteLine("2. Pop");
+                Console.WriteLine("3. Display");
+                Console.WriteLine("4. Exit");
+                Console.WriteLine("Enter your choice : ");
+                int ch = Convert.ToInt32(Console.ReadLine());
             }
         }
     }
