@@ -42,6 +42,14 @@ namespace exe4_025
                             Console.WriteLine("Popped Item :" + reza[top--]);
                         }
                         break;
+                    case 3:
+                        if(top == -1)
+                            Console.WriteLine("...Stack Underflow...");
+                        else
+                        {
+
+                        }
+                        break ;
                 }
             }
         }
