@@ -24,7 +24,16 @@ namespace exe4_025
                 int ch = Convert.ToInt32(Console.ReadLine());
                 switch (ch)
                 {
-                    
+                    case 1:
+                        if (top > MAX - 1)
+                            Console.WriteLine("... Stack Overflow...");
+                        else
+                        {
+                            Console.WriteLine("Enter the item: ");
+                            int n = int.Parse(Console.ReadLine());
+                            reza[++top] = n;
+                        }
+                        break;
                 }
             }
         }
