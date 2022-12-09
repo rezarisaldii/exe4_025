@@ -54,6 +54,9 @@ namespace exe4_025
                         break ;
                     case 4:
                         return;
+                    default:
+                        Console.WriteLine("Wrong Choice");
+                        break;
                 }
             }
         }
